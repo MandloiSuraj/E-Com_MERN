@@ -1,0 +1,65 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .popup-content {
+    position: relative; /* Ensure close button stays within popup */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for a little depth */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-button,
+  .shopkeeper-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+  }
+  
+  .shopkeeper-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+  }
+  
+  .user-button:hover,
+  .shopkeeper-button:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
